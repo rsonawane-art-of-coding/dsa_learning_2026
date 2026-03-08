@@ -3,9 +3,9 @@
 typedef struct student {
     int roll_num;
     int class;
-    char *name;
+    char name[128];
     int age;
-} student_t
+} student_t;
 
 typedef struct employee {
     char *name;

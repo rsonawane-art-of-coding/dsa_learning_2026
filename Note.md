@@ -1,7 +1,7 @@
 
 ## 🔧 Create Static library 
 
-ar rs lib_name list_of_object_file
+# $ar rs lib_name list_of_object_file
 
 | Option | Description |
 |--------|-------------|
@@ -13,3 +13,5 @@ ar rs lib_name list_of_object_file
 ```bash
 # Create libmath.a from math functions
 ar rs libmath.a add.o subtract.o multiply.o divide.o
+
+## 🔧 Link static library

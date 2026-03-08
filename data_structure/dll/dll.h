@@ -10,7 +10,7 @@ typedef struct dll
     node_t *head;
 } dll_t;
 
-dll_t *create_new_dll();
+dll_t *create_dll();
 
 int dll_insert_node(dll_t *dll, void *data);
 
