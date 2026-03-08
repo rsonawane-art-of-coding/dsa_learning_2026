@@ -1,5 +1,7 @@
 
-## 🔧 Command Options
+## 🔧 Create Static library 
+
+ar rs lib_name list_of_object_file
 
 | Option | Description |
 |--------|-------------|
